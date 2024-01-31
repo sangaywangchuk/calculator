@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: arial, sans-serif;
+}
+
+.cal-header {
+  text-align: center;
+}
+
+.cal-card {
+  margin-top: 10%;
+  width: 652px;
+  height: 50%;
+}
+
+.cal-result-section {
+  border: 1px solid #dadce0;
+  width: 98.5%;
+  height: 60px;
+  padding: 10px 8px 0 1px;
+  border-radius: 8px
+}
+
+.cal-history {
+  height: 20px;
+  text-align: left;
+  font-size: 28px;
+}
+
+.cal-result {
+  height: 27px;
+  text-align: right;
+  font-size: 28px;
+}
+
+.cal-input-container {
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.cal-operator-number {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  width: 57.142857142857139%;
+  gap: 3px;
+
+}
+
+.cal-trigonometry {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  width: 42.857142857142854%;
+  gap: 3px;
+  margin-right: 4px;
+}
+
+.cal-input {
+  width: 84px;
+  padding: 6px 0 6px 4px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dark-input {
+  background-color: #dadce0;
+  color: black;
+  border: 1px solid #dadce0;
+  font-weight: bold;
+}
+
+.dark-input:hover {
+  background-color: #b8babe;
+}
+
+
+.gray-input {
+  background-color: #f1f3f4;
+  border: 1px solid #f1f3f4;
+  color: black;
+  font-weight: bold;
+}
+
+.gray-input:hover {
+  background-color: #e2e4e5;
+}
+
+.equal-input {
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  color: white;
+  font-weight: bold;
+}
+
+.equal-input:hover {
+  background-color: #166cf6;
+}

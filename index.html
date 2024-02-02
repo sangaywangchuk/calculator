@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-      <link href="style.css" rel="stylesheet" />
-
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
     <title>Calculator</title>
+    <script src="calculator.js" defer></script>
   </head>
-
   <body>
     <div class="calculator-section">
       <div class="cal-card">
-        <h1 class="cal-header">Calculator</h1>
-        <div class="cal-result-section">
-          <div class="cal-history"> </div>
-          <div class="cal-result"> 0 </div>
+      <h1 class="cal-header">Calculator</h1>
+      <div class="cal-result-section">
+        <div id="cal-history" class="cal-history"></div>
+        <div id="cal-result" class="cal-result">0</div>
+      </div>
+      <div class="cal-input-container">
+        <div class="cal-trigonometry">
+          <div class="cal-input dark-input">Rad</div>
+          <div class="cal-input dark-input">Deg</div>
+          <div class="cal-input dark-input">x!</div>
+          <div class="cal-input dark-input">Inv</div>
+          <div class="cal-input dark-input">sin</div>
+          <div class="cal-input dark-input">In</div>
+          <div class="cal-input dark-input">π</div>
+          <div class="cal-input dark-input">Cos</div>
+          <div class="cal-input dark-input">log</div>
+          <div class="cal-input dark-input">e</div>
+          <div class="cal-input dark-input">tan</div>
+          <div class="cal-input dark-input">&#8730;</div>
+          <div class="cal-input dark-input">Ans</div>
+          <div class="cal-input dark-input">EXP</div>
+          <div class="cal-input dark-input">X<sup>Y</sup></div>
         </div>
-        <div class="cal-input-container">
-          <div class="cal-trigonometry">
-            <div class="cal-input dark-input">Rad</div>
-            <div class="cal-input dark-input">Deg</div>
-            <div class="cal-input dark-input">x!</div>
-            <div class="cal-input dark-input">Inv</div>
-            <div class="cal-input dark-input">sin</div>
-            <div class="cal-input dark-input">In</div>
-            <div class="cal-input dark-input">II</div>
-            <div class="cal-input dark-input">Cos</div>
-            <div class="cal-input dark-input">log</div>
-            <div class="cal-input dark-input">e</div>
-            <div class="cal-input dark-input">tan</div>
-            <div class="cal-input dark-input">squ</div>
-            <div class="cal-input dark-input">Ans</div>
-            <div class="cal-input dark-input">EXP</div>
-            <div class="cal-input dark-input">x^y</div>
-          </div>
-          <div class="cal-operator-number">
-            <div class="cal-input dark-input">(</div>
-            <div class="cal-input dark-input">)</div>
-            <div class="cal-input dark-input">%</div>
-            <div class="cal-input dark-input">AC</div>
-            <div class="cal-input gray-input">7</div>
-            <div class="cal-input gray-input">8</div>
-            <div class="cal-input gray-input">9</div>
-            <div class="cal-input dark-input">/</div>
-            <div class="cal-input gray-input">4</div>
-            <div class="cal-input gray-input">5</div>
-            <div class="cal-input gray-input">6</div>
-            <div class="cal-input dark-input">*</div>
-            <div class="cal-input gray-input">1</div>
-            <div class="cal-input gray-input">2</div>
-            <div class="cal-input gray-input">3</div>
-            <div class="cal-input dark-input">-</div>
-            <div class="cal-input gray-input">0</div>
-            <div class="cal-input gray-input">.</div>
-            <div class="cal-input equal-input">=</div>
-            <div class="cal-input dark-input">+</div>
+        <div class="cal-operator-number">
+          <div class="cal-input dark-input">(</div>
+          <div class="cal-input dark-input">)</div>
+          <div class="cal-input dark-input">%</div>
+          <div id="cal-clear" class="cal-input dark-input">AC</div>
+          <div class="cal-input gray-input">7</div>
+          <div class="cal-input gray-input">8</div>
+          <div class="cal-input gray-input">9</div>
+          <div class="cal-input dark-input">/</div>
+          <div class="cal-input gray-input">4</div>
+          <div class="cal-input gray-input">5</div>
+          <div class="cal-input gray-input">6</div>
+          <div class="cal-input dark-input">*</div>
+          <div class="cal-input gray-input">1</div>
+          <div class="cal-input gray-input">2</div>
+          <div class="cal-input gray-input">3</div>
+          <div class="cal-input dark-input">-</div>
+          <div class="cal-input gray-input">0</div>
+          <div class="cal-input gray-input">.</div>
+          <div id="cal-equal" class="cal-input equal-input">=</div>
+          <div class="cal-input dark-input">+</div>
           </div>
         </div>
       </div>
-      
     </div>
   </body>
 </html>
